@@ -1,0 +1,7 @@
+
+
+
+@mixin linear-gradient($color-stop1, $color-stop2) {
+    background: $color-stop1;
+    background: $background-image, linear-gradient($primary-color-1, $primary-color-2);
+}
